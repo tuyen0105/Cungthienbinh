@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle><div class="header region">Truyền thuyết về cung hoàng đạo Thiên Bình</div></tittle>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Bai12.css">
+</head>
+<body>
+	<h2>Báo cáo của nhóm HTVM lớp 12L</h2>
+	<div class="navigation_menu region"><nav>
+    <button type="button" onclick="scrollToSection('overview')">Sơ lược</button>
+    <button type="button" onclick="scrollToSection('legend')">Truyền thuyết</button>
+    <button type="button" onclick="scrollToSection('feedback')">Đóng góp ý kiến</button></div>
+	<h4 id='overview'>Sơ lược về Thiên Bình</h4>
+	<p> Cung Thiên Bình hay còn gọi là Thiên Xứng và Thiên Bình có tên gọi trong tiếng Anh là Libra. Đây là cung hoàng đạo nằm vị trí thứ 7 trong 12 cung hoàng đạo.<br>
+	<br>Những người có ngày sinh từ ngày 23 tháng 9 đến ngày 22 tháng 10 sẽ thuộc cung Thiên Bình, là cung chiêm tinh thuộc nguyên tố khí. Khoảng thời gian từ tháng 9 đến tháng 10 là khoảng thời gian giao mùa đặc biệt giữa mùa thu mát mẻ và khí trời se lạnh của mùa đông. Vì thế những người thuộc cung này thường sẽ là người rất lãng mạn và đậm chất văn thơ.</p>
+	<img src="anh2.jpg" alt="tbinh">
+	<p>Cung Thiên Bình có sao chiếu mệnh là sao Kim hay còn gọi là Venus. Theo tiếng Latin cổ nghĩa của Venus là thần vệ nữ hay còn gọi là nữ thần. Trong thần thoại Hy Lạp thần Venus được coi tương đương với nữ thần Aphrodite. Đây là nữ thần thể hiện tình yêu, phái đẹp, sinh sản và bảo vệ quyền lợi của nữ giới.<br>
+	<br>Sao Kim là hành tinh có sức ảnh hưởng mạnh nhất đến tất cả các thiên thể trong thần thoại cổ. Những người có sao chiếu mệnh là sao Kim sẽ là những người thường hướng về công lý, luôn cố gắng tạo các mối quan hệ tốt, đặc biệt họ tượng trưng cho vẻ đẹp hấp dẫn và lôi cuốn. Những người có sao Kim chiếu mệnh thường họ sẽ không tỏ ra là bản thân tốt hơn so với người khác và không thích khoe khoang.</p>
+	<h4 id='legend'>Truyền thuyết về cung Thiên Bình</h4>
+	<p class="custom-border">Khoảng 3.500 năm trước, khi người La Mã khám phá ra chòm sao Thiên Bình, cung hoàng đạo này nằm trên đường đi của Mặt Trời vượt qua đường xích đạo từ Bắc bán cầu đến Nam bán cầu. Đây là thời gian trong năm khi ngày và đêm có cùng độ dài. Nhiều nhà chiêm tinh hiện đại cho rằng cung Thiên Bình là cung hoàng đạo dễ mô tả nhất, vì nó biểu trưng cho điểm nổi bật nhất của năm, của mùa, khi mà mọi thành quả trong việc trồng trọt trong mùa xuân được thu hoạch.<br>
+		<br>Theo thần thoại Hy Lạp, từ thời xa xưa, loài người trải qua 5 thời đại: Thời đại Vàng, Thời đại Bạc, Thời đại Đồng, Thời đại Bán thần và Thời đại Sắt. Trong thời đại Vàng, khi con người được tạo ra bằng vàng bởi các vị thần, có một nữ thần luôn theo đuổi sự công bằng, phân biệt rõ ràng giữa điều thiện và điều ác. Đó là nữ thần Astraea, được biết đến là con gái của Themis và Zeus. Trong thời kỳ này, con người và các loài thú trong thiên nhiên sống hạnh phúc với mùa xuân vĩnh hằng kéo dài suốt năm.</p>
+	<img src="anh1.jpg" alt="tbinh" width="400" height="300">
+	<p>Khi thời đại Vàng kết thúc, thời đại Bạc nối tiếp, và con người trở nên ích kỷ, xấu xa, tàn ác, kẻ mạnh áp bức kẻ yếu. Các vị thần mệt mỏi rút lui về thiên đàng khi khả năng chịu đựng của họ đối với loài người đã cạn kiệt. Chỉ có Astraea ở lại, tiếp tục sứ mệnh của mình trong việc truyền bá và thúc đẩy sự công bằng.<br>
+		<br>Tuy nhiên, thời đại Đồng đến, con người trở nên hung ác hơn với chiến tranh và sự giết chóc. Cán cân của Astraea tiếp tục nghiêng về sự ác, khiến nữ thần này không thể chịu đựng được nữa và cuối cùng, nàng phải rời bỏ thế gian.</p>
+ <form action="thankyou.html" method="GET" id="feedback">
+        <h3>Đóng góp ý kiến cho trang</h3>
+        <label>Địa chỉ email:</label>
+        <input type="email" name="mail" required>
+        <label>Ý kiến đóng góp:</label>
+        <textarea name="txtcmt" rows="3" cols="30"></textarea>
+        <input type="submit" value="Gửi ý kiến">
+    </form>
+    <div class="footer region"><p>Nhóm HTVM-lớp 12L<br>Ngày cập nhật cuối: 26/2/2025<br>Trang web có sử dụng hình ảnh và thông tin từ Internet</p></div>
+     <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+        }
+    </script>
+</body>
+</html>
+ 
